@@ -24,16 +24,29 @@
     <link rel="Stylesheet" href="../libs/ui-grid_3.0.0/ui-grid.css" type="text/css"/>
 </head>
 <body ng-app="activitiApp" ng-cloak>
-    <div class="navbar navbar-fixed-top navbar-inverse" ng-show="!root.headless" role="navigation" id="main-nav">
+    <div class="navbar navbar-fixed-top " ng-show="!root.headless" role="navigation" id="main-nav">
         <div class="fixed-container">
             <div class="navbar-header">
                 <a ng-click="backToLanding()" class="landing-logo" ng-if="account != null && account != undefined" title="{{'GENERAL.MAIN-TITLE' | translate}}">
                     <img ng-if="account.tenantPictureId && account.tenantId"
                          ng-src="{{restRootUrl()}}/app/rest/tenants/{{account.tenantId}}/logo">
 
-                    <img ng-if="!account.tenantPictureId" ng-src="{{appResourceRoot}}../images/activiti-logo.png">
+                    <!-- <img ng-if="!account.tenantPictureId" ng-src="{{appResourceRoot}}../images/activiti-logo.png"> -->
+                    <span class="span1">
+                        <span class="span3">
+                            <i class="glyphicon glyphicon-minus"></i>
+                        </span>
+                        <span class="span2">CO</span>
+                        <span class="span3">
+                            <i class="glyphicon glyphicon-minus"></i>
+                        </span>
+                        <span class="span2">NH</span>
+                        <span class="span3">
+                            <i class="glyphicon glyphicon-minus"></i>
+                        </span>
+                    </span>
                 </a>
-                <ul class="nav navbar-nav" ng-show="authenticationChecked">
+                <ul class="nav navbar-nav no-hover" ng-show="authenticationChecked">
                     <li ng-repeat="item in mainNavigation" ng-show="(authenticated && !item.unauthenticated) || (item.unauthenticated && !authenticated)" ng-class="{'active': item.id == mainPage.id}">
                         <a ng-click="setMainPage(item)">{{item.title | translate}}</a>
                     </li>

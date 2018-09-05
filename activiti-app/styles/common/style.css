@@ -210,7 +210,7 @@ label {
 
 /** Buttons **/
 button.btn, a.btn {
-    background-color: #36a7c4;
+    background-color: #43a7a1;
     color: #ffffff;
     border-color: #ffffff;
     font-size: 15px;
@@ -236,7 +236,7 @@ button.btn.btn-danger {
 
 .btn:hover, .btn.active, .btn:focus,
 .btn[disabled]:hover, .btn[disabled].active, .btn[disabled]:focus {
-    background-color: #2a8198;
+    background-color: #248672;
     border-color: #ffffff;
     color: #ffffff;
 }
@@ -501,11 +501,16 @@ a.dropdown-toggle {
 /* Navigation */
 
 .navbar {
-    background-color: #333333;
+    background-color: #43a7a1;
     border: none;
     min-height: 40px;
 }
 
+.no-hover>li>a:hover, .no-hover>li>a:focus {
+    text-decoration: none;
+    background-color: transparent;
+    color: #dddddd;
+}
 
 .navbar .btn-group .btn-default {
     border: none;
@@ -578,7 +583,7 @@ a.dropdown-toggle {
 
 
 .navbar-nav > li.active > a {
-    color: #36a7c4;
+    color: #43a7a1;
 }
 
 /* Sub header */
@@ -1276,7 +1281,7 @@ button.selection:active, button.selection:focus {
 }
 
 .main-list .list-subheader {
-    margin-top: 40px;
+    margin-top: 66px;
     position: relative;
     border-bottom: 1px solid #f2f2f2;
 }
@@ -2150,17 +2155,17 @@ h3+div > .dropzone {
     color: black;
 }
 
-.app-link-icon.theme-1,
-.app.theme-1 {
-    background-color: #269abc;
+.app-link-icon.theme-7,
+.app.theme-7 {
+    background-color: #2692bc;
 }
-.app.theme-1 {
-    border-color: #269abc;
+.app.theme-7 {
+    border-color: #2692bc;
     text-shadow: 1px 1px #168aac;
 }
 
-.app-indicator.theme-1 {
-    background: #269abc;
+.app-indicator.theme-7 {
+    background: #2692bc;
     background: -moz-linear-gradient(left,  rgba(38,154,188,0) 0%, rgba(38,154,188,0.02) 1%, rgba(38,154,188,1) 30%, rgba(38,154,188,1) 100%); /* FF3.6+ */
     background: -webkit-linear-gradient(left,  rgba(38,154,188,0) 0%,rgba(38,154,188,0.02) 1%,rgba(38,154,188,1) 30%,rgba(38,154,188,1) 100%); /* Chrome10+,Safari5.1+ */
     background: -ms-linear-gradient(left,  rgba(38,154,188,0) 0%,rgba(38,154,188,0.02) 1%,rgba(38,154,188,1) 30%,rgba(38,154,188,1) 100%); /* IE10+ */
@@ -2168,46 +2173,46 @@ h3+div > .dropzone {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00269abc', endColorstr='#269abc',GradientType=1 ); /* IE6-9 */
 }
 
-.app-indicator.theme-1 > .btn-group {
+.app-indicator.theme-7 > .btn-group {
     border-color: #168aac;
 }
 
-.app-indicator.theme-1 > .btn-group .btn-default:hover, .app-indicator.theme-1 > .btn-group .btn-default:focus {
+.app-indicator.theme-7 > .btn-group .btn-default:hover, .app-indicator.theme-7 > .btn-group .btn-default:focus {
     background-color: #168aac;
 }
 
-.app.theme-1  .actions+.dropdown-menu li:hover a {
+.app.theme-7  .actions+.dropdown-menu li:hover a {
     background-color: #168aac;
 }
 
-.app.theme-1 .backdrop i {
+.app.theme-7 .backdrop i {
     color: #2a9ec0;
 }
 
-.app.theme-1 .logo i {
+.app.theme-7 .logo i {
     color: #168aac;
 }
 
-.active > .app.preview.theme-1, .app.theme-1:hover {
+.active > .app.preview.theme-7, .app.theme-7:hover {
     border-color: #168aac;
 }
 
-.app.theme-1 .actions:hover {
-    border-color: #269abc;
-    color: #269abc;
+.app.theme-7 .actions:hover {
+    border-color: #2692bc;
+    color: #2692bc;
 }
 
-.app-link-icon.theme-2,
-.app.theme-2 {
-    background-color: #7da9b0;
+.app-link-icon.theme-8,
+.app.theme-8 {
+    background-color: #7ea6ad;
 }
-.app.theme-2 {
-    border-color: #7da9b0;
+.app.theme-8 {
+    border-color: #7ea6ad;
     text-shadow: 1px 1px #6d99a0;
 }
 
-.app-indicator.theme-2 {
-    background: #7da9b0;
+.app-indicator.theme-8 {
+    background: #7ea6ad;
     background: -moz-linear-gradient(left,  rgba(125,169,176,0) 0%, rgba(125,169,176,0.02) 1%, rgba(125,169,176,1) 30%, rgba(125,169,176,1) 100%); /* FF3.6+ */
     background: -webkit-linear-gradient(left,  rgba(125,169,176,0) 0%,rgba(125,169,176,0.02) 1%,rgba(125,169,176,1) 30%,rgba(125,169,176,1) 100%); /* Chrome10+,Safari5.1+ */
     background: -ms-linear-gradient(left,  rgba(125,169,176,0) 0%,rgba(125,169,176,0.02) 1%,rgba(125,169,176,1) 30%,rgba(125,169,176,1) 100%); /* IE10+ */
@@ -2215,46 +2220,46 @@ h3+div > .dropzone {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00269abc', endColorstr='#269abc',GradientType=1 ); /* IE6-9 */
 }
 
-.app-indicator.theme-2 > .btn-group {
+.app-indicator.theme-8 > .btn-group {
     border-color: #6d99a0;
 }
 
-.app-indicator.theme-2 > .btn-group .btn-default:hover, .app-indicator.theme-2 > .btn-group .btn-default:focus {
+.app-indicator.theme-8 > .btn-group .btn-default:hover, .app-indicator.theme-8 > .btn-group .btn-default:focus {
     background-color: #6d99a0;
 }
 
-.app.theme-2 .actions+.dropdown-menu li:hover a {
+.app.theme-8 .actions+.dropdown-menu li:hover a {
     background-color: #6d99a0;
 }
 
-.app.theme-2 .backdrop i {
+.app.theme-8 .backdrop i {
     color: #81adb4;
 }
 
-.app.theme-2 .logo i {
+.app.theme-8 .logo i {
     color: #6d99a0;
 }
 
-.active > .app.preview.theme-2, .app.theme-2:hover {
+.active > .app.preview.theme-8, .app.theme-8:hover {
     border-color: #6d99a0;
 }
 
-.app.theme-2 .actions:hover {
-    border-color: #7da9b0;
-    color: #7da9b0;
+.app.theme-8 .actions:hover {
+    border-color: #7ea6ad;
+    color: #7ea6ad;
 }
 
-.app-link-icon.theme-3,
-.app.theme-3 {
-    background-color: #7689ab;
+.app-link-icon.theme-9,
+.app.theme-9 {
+    background-color: #7486a5;
 }
-.app.theme-3 {
-    border-color: #7689ab;
+.app.theme-9 {
+    border-color: #7486a5;
     text-shadow: 1px 1px #66799b;
 }
 
-.app-indicator.theme-3 {
-    background: #7689ab;
+.app-indicator.theme-9 {
+    background: #7486a5;
     background: -moz-linear-gradient(left,  rgba(118,137,171,0) 0%, rgba(118,137,171,0.02) 1%, rgba(118,137,171,1) 30%, rgba(118,137,171,1) 100%); /* FF3.6+ */
     background: -webkit-linear-gradient(left,  rgba(118,137,171,0) 0%,rgba(118,137,171,0.02) 1%,rgba(118,137,171,1) 30%,rgba(118,137,171,1) 100%); /* Chrome10+,Safari5.1+ */
     background: -ms-linear-gradient(left,  rgba(118,137,171,0) 0%,rgba(118,137,171,0.02) 1%,rgba(118,137,171,1) 30%,rgba(118,137,171,1) 100%); /* IE10+ */
@@ -2262,33 +2267,33 @@ h3+div > .dropzone {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00269abc', endColorstr='#269abc',GradientType=1 ); /* IE6-9 */
 }
 
-.app-indicator.theme-3 > .btn-group {
+.app-indicator.theme-9 > .btn-group {
     border-color: #66799b;
 }
 
-.app-indicator.theme-3 > .btn-group .btn-default:hover, .app-indicator.theme-3 > .btn-group .btn-default:focus {
+.app-indicator.theme-9 > .btn-group .btn-default:hover, .app-indicator.theme-9 > .btn-group .btn-default:focus {
     background-color: #66799b;
 }
 
-.app.theme-3 .actions+.dropdown-menu li:hover a {
+.app.theme-9 .actions+.dropdown-menu li:hover a {
     background-color: #66799b;
 }
 
-.app.theme-3 .backdrop i {
+.app.theme-9 .backdrop i {
     color: #7a8daf;
 }
 
-.app.theme-3 .logo i {
+.app.theme-9 .logo i {
     color: #66799b;
 }
 
-.active > .app.preview.theme-3, .app.theme-3:hover {
+.active > .app.preview.theme-9, .app.theme-9:hover {
     border-color: #66799b;
 }
 
-.app.theme-3 .actions:hover {
-    border-color: #7689ab;
-    color: #7689ab;
+.app.theme-9 .actions:hover {
+    border-color: #7486a5;
+    color: #7486a5;
 }
 
 .app-link-icon.theme-4,
@@ -2433,16 +2438,16 @@ h3+div > .dropzone {
     color: #759d4c;
 }
 
-.app-link-icon.theme-7,
-.app.theme-7 {
+.app-link-icon.theme-1,
+.app.theme-1 {
     background-color: #b1b489;
 }
-.app.theme-7 {
+.app.theme-1 {
     border-color: #b1b489;
     text-shadow: 1px 1px #a1a479;
 }
 
-.app-indicator.theme-7 {
+.app-indicator.theme-1 {
     background: #b1b489;
     background: -moz-linear-gradient(left,  rgba(177,180,137,0) 0%, rgba(177,180,137,0.02) 1%, rgba(177,180,137,1) 30%, rgba(177,180,137,1) 100%); /* FF3.6+ */
     background: -webkit-linear-gradient(left,  rgba(177,180,137,0) 0%,rgba(177,180,137,0.02) 1%,rgba(177,180,137,1) 30%,rgba(177,180,137,1) 100%); /* Chrome10+,Safari5.1+ */
@@ -2451,45 +2456,45 @@ h3+div > .dropzone {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00269abc', endColorstr='#269abc',GradientType=1 ); /* IE6-9 */
 }
 
-.app-indicator.theme-7 > .btn-group {
+.app-indicator.theme-1 > .btn-group {
     border-color: #a1a479;
 }
 
-.app-indicator.theme-7 > .btn-group .btn-default:hover, .app-indicator.theme-7 > .btn-group .btn-default:focus {
+.app-indicator.theme-1 > .btn-group .btn-default:hover, .app-indicator.theme-1 > .btn-group .btn-default:focus {
     background-color: #a1a479;
 }
 
-.app.theme-7 .actions+.dropdown-menu li:hover a {
+.app.theme-1 .actions+.dropdown-menu li:hover a {
     background-color: #a1a479;
 }
 
-.app.theme-7 .backdrop i {
+.app.theme-1 .backdrop i {
     color: #b5b98d;
 }
 
-.app.theme-7 .logo i {
+.app.theme-1 .logo i {
     color: #a1a479;
 }
 
-.active > .app.preview.theme-7, .app.theme-7:hover {
+.active > .app.preview.theme-1, .app.theme-1:hover {
     border-color: #a1a479;
 }
 
-.app.theme-7 .actions:hover {
+.app.theme-1 .actions:hover {
     border-color: #b1b489;
     color: #b1b489;
 }
 
-.app-link-icon.theme-8,
-.app.theme-8 {
+.app-link-icon.theme-2,
+.app.theme-2 {
     background-color: #a17299;
 }
-.app.theme-8 {
+.app.theme-2 {
     border-color: #a17299;
     text-shadow: 1px 1px #916289;
 }
 
-.app-indicator.theme-8 {
+.app-indicator.theme-2 {
     background: #a17299;
     background: -moz-linear-gradient(left,  rgba(161,114,153,0) 0%, rgba(161,114,153,0.02) 1%, rgba(161,114,153,1) 30%, rgba(161,114,153,1) 100%); /* FF3.6+ */
     background: -webkit-linear-gradient(left,  rgba(161,114,153,0) 0%,rgba(161,114,153,0.02) 1%,rgba(161,114,153,1) 30%,rgba(161,114,153,1) 100%); /* Chrome10+,Safari5.1+ */
@@ -2498,45 +2503,45 @@ h3+div > .dropzone {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00269abc', endColorstr='#269abc',GradientType=1 ); /* IE6-9 */
 }
 
-.app-indicator.theme-8 > .btn-group {
+.app-indicator.theme-2 > .btn-group {
     border-color: #916289;
 }
 
-.app-indicator.theme-8 > .btn-group .btn-default:hover, .app-indicator.theme-8 > .btn-group .btn-default:focus {
+.app-indicator.theme-2 > .btn-group .btn-default:hover, .app-indicator.theme-2 > .btn-group .btn-default:focus {
     background-color: #916289;
 }
 
-.app.theme-8 .actions+.dropdown-menu li:hover a {
+.app.theme-2 .actions+.dropdown-menu li:hover a {
     background-color: #916289;
 }
 
-.app.theme-8 .backdrop i {
+.app.theme-2 .backdrop i {
     color: #a5769d;
 }
 
-.app.theme-8 .logo i {
+.app.theme-2 .logo i {
     color: #916289;
 }
 
-.active > .app.preview.theme-8, .app.theme-8:hover {
+.active > .app.preview.theme-2, .app.theme-2:hover {
     border-color: #916289;
 }
 
-.app.theme-8 .actions:hover {
+.app.theme-2 .actions:hover {
     border-color: #a17299;
     color: #a17299;
 }
 
-.app-link-icon.theme-9,
-.app.theme-9 {
+.app-link-icon.theme-3,
+.app.theme-3 {
     background-color: #696c67;
 }
-.app.theme-9 {
+.app.theme-3 {
     border-color: #696c67;
     text-shadow: 1px 1px #595c57;
 }
 
-.app-indicator.theme-9 {
+.app-indicator.theme-3 {
     background: #696c67;
     background: -moz-linear-gradient(left,  rgba(105,108,103,0) 0%, rgba(105,108,103,0.02) 1%, rgba(105,108,103,1) 30%, rgba(105,108,103,1) 100%); /* FF3.6+ */
     background: -webkit-linear-gradient(left,  rgba(105,108,103,0) 0%,rgba(105,108,103,0.02) 1%,rgba(105,108,103,1) 30%,rgba(105,108,103,1) 100%); /* Chrome10+,Safari5.1+ */
@@ -2545,31 +2550,31 @@ h3+div > .dropzone {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00269abc', endColorstr='#269abc',GradientType=1 ); /* IE6-9 */
 }
 
-.app-indicator.theme-9 > .btn-group {
+.app-indicator.theme-3 > .btn-group {
     border-color: #595c57;
 }
 
-.app-indicator.theme-9 > .btn-group .btn-default:hover, .app-indicator.theme-9 > .btn-group .btn-default:focus {
+.app-indicator.theme-3 > .btn-group .btn-default:hover, .app-indicator.theme-3 > .btn-group .btn-default:focus {
     background-color: #595c57;
 }
 
-.app.theme-9 .actions+.dropdown-menu li:hover a {
+.app.theme-3 .actions+.dropdown-menu li:hover a {
     background-color: #595c57;
 }
 
-.app.theme-9 .backdrop i {
+.app.theme-3 .backdrop i {
     color: #6d706b;
 }
 
-.app.theme-9 .logo i {
+.app.theme-3 .logo i {
     color: #595c57;
 }
 
-.active > .app.preview.theme-9, .app.theme-9:hover {
+.active > .app.preview.theme-3, .app.theme-3:hover {
     border-color: #595c57;
 }
 
-.app.theme-9 .actions:hover {
+.app.theme-3 .actions:hover {
     border-color: #696c67;
     color: #696c67;
 }
@@ -2625,7 +2630,7 @@ h3+div > .dropzone {
     margin: 10px;
     height: 200px;
     padding: 5px;
-    background-color: #f8f8f7;
+    background-color: #eaeaea;
 }
 
 .create-app h3 {
@@ -2680,6 +2685,25 @@ h3+div > .dropzone {
     width: 180px;
     float: left;
     cursor: pointer;
+    margin-left: 10px;
+    /* text-align: center; */
+}
+.landing-logo .span1 {
+    color: #ffffff;
+    width: 50px;
+    padding: 10px;
+    border-radius: 25px;
+    /* font-size: 20px; */
+    font-weight: 600px;
+}
+
+.landing-logo .span1 .span3 {
+    color: #1b7ec3;
+}
+
+.landing-logo .span1 .span2 {
+    color: #edf3ed;
+    font-size: 30px;
 }
 
 .landing-logo img {
@@ -3088,7 +3112,7 @@ ul#strength > li:last-child {
 }
 
 .help-entry:hover > span {
-    color: #36a7c4;
+    color: #43a7a1;
 }
 
 .help-entry.active:hover > span {

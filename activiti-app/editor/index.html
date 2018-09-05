@@ -37,16 +37,29 @@
 </head>
 <body ng-app="activitiModeler" ng-cloak>
 
-    <div class="navbar navbar-fixed-top navbar-inverse" role="navigation" id="main-header">
+    <div class="navbar navbar-fixed-top" role="navigation" id="main-header">
         <div class="fixed-container">
             <div class="navbar-header">
                 <a ng-click="backToLanding()" class="landing-logo" ng-if="account != null && account != undefined" title="{{'GENERAL.MAIN-TITLE' | translate}}">
                     <img ng-if="account.tenantPictureId && account.tenantId"
                          ng-src="{{restRootUrl()}}/app/rest/tenants/{{account.tenantId}}/logo">
 
-                    <img ng-if="!account.tenantPictureId" ng-src="{{appResourceRoot}}../images/activiti-logo.png">
+                    <!-- <img ng-if="!account.tenantPictureId" ng-src="{{appResourceRoot}}../images/activiti-logo.png"> -->
+                    <span class="span1">
+                        <span class="span3">
+                            <i class="glyphicon glyphicon-minus"></i>
+                        </span>
+                        <span class="span2">CO</span>
+                        <span class="span3">
+                            <i class="glyphicon glyphicon-minus"></i>
+                        </span>
+                        <span class="span2">NH</span>
+                        <span class="span3">
+                            <i class="glyphicon glyphicon-minus"></i>
+                        </span>
+                    </span>
                 </a>
-                <ul class="nav navbar-nav" id="main-nav" ng-show="authenticated">
+                <ul class="nav navbar-nav no-hover" id="main-nav" ng-show="authenticated">
                     <li ng-class="{'active' : item.id == mainPage.id}" ng-repeat="item in mainNavigation"
                         ng-show="(authenticated && !item.unauthenticated) || (item.unauthenticated && !authenticated)">
                         <a ng-click="setMainPage(item)">{{item.title | translate}}</a>

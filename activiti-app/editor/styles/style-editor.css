@@ -140,9 +140,9 @@ ul.filter-list li a {
 }
 
 ul.filter-list li.current a {
-	color: #36a7c4;
+	color: #43a7a1;
 	padding-left: 5px;
-	border-left: 4px solid #36a7c4;
+	border-left: 4px solid #43a7a1;
 }
 
 ul.filter-list li a:hover, ul.filter-list li a:focus {

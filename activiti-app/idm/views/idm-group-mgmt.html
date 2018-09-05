@@ -122,12 +122,12 @@
 
                         <span loading="model.loadingUsers"></span>
 
-                    <span ng-if="model.users.data && model.users.data.length > 0">
-                        {{'IDM.USER-MGMT.MATCHING-USERS' | translate:model.users}}
-    					<a ng-click="showPreviousUsers()" ng-show="model.userPage > 0">&laquo; {{'IDM.USER-MGMT.SHOW-PREVIOUS' | translate}} {{model.pageSize}}</a>
-						<span ng-show="model.userPage > 0 && model.moreUsers">|</span>
-						<a ng-click="showNextUsers()" ng-show="model.moreUsers">{{'IDM.USER-MGMT.SHOW-NEXT' | translate}} {{model.pageSize}} &raquo;</a>
-					</span>
+                        <span ng-if="model.users.data && model.users.data.length > 0">
+                            {{'IDM.USER-MGMT.MATCHING-USERS' | translate:model.users}}
+                            <a ng-click="showPreviousUsers()" ng-show="model.userPage > 0">&laquo; {{'IDM.USER-MGMT.SHOW-PREVIOUS' | translate}} {{model.pageSize}}</a>
+                            <span ng-show="model.userPage > 0 && model.moreUsers">|</span>
+                            <a ng-click="showNextUsers()" ng-show="model.moreUsers">{{'IDM.USER-MGMT.SHOW-NEXT' | translate}} {{model.pageSize}} &raquo;</a>
+                        </span>
 
                         <table width="100%" class="users" ng-if="model.users.data && model.users.data.length > 0">
                             <tr>

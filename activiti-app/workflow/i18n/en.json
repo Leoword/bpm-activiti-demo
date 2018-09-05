@@ -1,0 +1,334 @@
+{
+    "COMMON" : {
+        "SELECT-FOLDER": "选择文件夹..."
+    },
+    "GENERAL": {
+        "MAIN-TITLE": "Activiti - 我的任务",
+        "ERROR": {
+            "GENERIC": "对不起，出现错误...",
+            "UNKNOWN": "对不起，执行请求操作时出现错误",
+            "BAD_REQUEST": "执行请求操作时出现错误",
+            "NOT_FOUND": "您访问的资源不存在",
+            "UNAUTHORIZED": "执行请求操作前请先登录。",
+            "FORBIDDEN": "您的请求操作未被允许",
+            "INTERNAL_SERVER_ERROR": "对不起，执行请求操作时发生意外错误。",
+            "UPLOAD-LIMIT-EXCEEDED": "您上传的文件过大",
+            "UPLOAD-LIMIT-EXCEEDED-TRIAL-USER": "您上传的文件过大。升级为企业用户上传文件将大于{{quota}}!",
+            "QUOTA-EXCEEDED-RUNTIME-PROCESSES": "作为试用用户，您只可以运行活跃进程{{quota}}。",
+            "QUOTA-EXCEEDED-COMPLETED-PROCESSES": "作为试用用户，您只可以完成流程{{quota}}。启动新流程前需要删除一个已完成的流程。",
+            "QUOTA-EXCEEDED-TOTAL-CONTENT-SIZE": "作为试用用户，您只可以保存内容{{quota}}。新内容需要删除内容或完成流程释放空间。"
+        },
+        "NAVIGATION": {
+            "TASKS": "任务",
+            "PROCESSES": "流程",
+            "DESIGN": "设计",
+            "CREATE": "+ 创建",
+            "LOGIN": "登录"
+        },
+        "TITLE": {
+            "ADD-COMMENT": "创建说明",
+            "INVOLVE-PEOPLE": "选择用户",
+            "RECENT-PEOPLE": "最近用户",
+            "MATCHING-PEOPLE": "匹配用户",
+            "SELECT-GROUP": "选择组",
+            "MATCHING-GROUPS": "匹配组",
+            "FILTER": "过滤",
+            "SELECT-DATE": "选择日期"
+        },
+        "ACTION": {
+            "LOGOUT": "注销",
+            "ADD-COMMENT": "添加注释",
+            "SAVE": "保存",
+            "CANCEL": "取消",
+            "CLOSE": "关闭",
+            "CONFIRM": "确认",
+            "SHOW-MORE": "显示更多..."
+        },
+        "MESSAGE": {
+            "SELECT-PEOPLE-HELP": "使用上下光标进行选择，按Enter键确认",
+            "SELECT-GROUP-HELP": "使用上下光标进行选择，按Enter键确认",
+            "SELECT-GROUP-SEARCH-PLACEHOLDER": "搜索组",
+            "SELECT-GROUP-NO-MATCHING-RESULTS": "使用上面的搜索框查找组",
+            "UPLOAD-CONTENT": "选择或删除文件",
+            "UPLOAD-CONTENT-NO-DROP": "选择上传文件",
+            "DROPZONE": "删除上传文件",
+            "YES": "是",
+            "NO": "否"
+        },
+        "TIME": {
+            "HOURS": "时",
+            "MINUTES": "分",
+            "SECONDS": "秒"
+        },
+        "ABOUT": {
+            "TYPE": "类型",
+            "LICENSED-TO": "授权自",
+            "EXPIRES": "有效期",
+            "COPYRIGHT": "© 2005-2015 Alfresco Software Inc. 版权所有。",
+            "LEGAL": "法律与许可"
+        }
+    },
+    "LOGIN": {
+        "TITLE": "登录",
+        "USERNAME": "用户名",
+        "USERNAME-PLACEHOLDER": "输入您的用户名",
+        "PASSWORD": "密码",
+        "PASSWORD-PLACEHOLDER": "输入您的密码",
+        "ACTION": {
+            "CONFIRM": "登录"
+        }
+    },
+    "TASK": {
+        "SECTION": {
+            "PEOPLE": "用户",
+            "CONTENT": "内容",
+            "COMMENTS": "注释",
+            "NOTES": "备注"
+        },
+        "FILTER": {
+            "CREATED-DESC": "最新创建",
+            "CREATED-ASC": "最早创建",
+            "DUE-DESC": "最近到期",
+            "DUE-ASC": "最早到期",
+            "TEXT": "过滤",
+            "TEXT-PLACEHOLDER": "根据任务名搜索",
+            "TEXT-SUMMARY": "Filtered by: {{text}}",
+            "PROCESS-DEFINITION": "流程定义",
+            "PROCESS-DEFINITION-PLACEHOLDER": "选择流程定义 ...",
+            "STATE": "状态",
+            "STATE-OPEN": "打开",
+            "STATE-COMPLETED": "完成",
+            "ASSIGNMENT": "分配",
+            "ASSIGNMENT-INVOLVED": "我参与的任务",
+            "ASSIGNMENT-ASSIGNEE": "我的分配任务",
+            "ASSIGNMENT-CANDIDATE": "我的候选任务",
+            "ASSIGNMENT-GROUP": "任务分配至组\"{{name}}\"",
+            "RESET": "重置过滤"
+        },
+        "ALERT": {
+            "COMMENT-ADDED": "注释已添加至\"{{name}}\"",
+            "PERSON-INVOLVED": "{{firstName}} {{lastName}}已加入任务\"{{taskName}}\"",
+            "PERSON-NO-LONGER-INVOLVED": "{{firstName}} {{lastName}}已退出任务\"{{taskName}}\"",
+            "CREATED": "任务 \"{{name}}\" 已创建",
+            "COMPLETED": "任务已完成",
+            "SAVED": "任务表单已保存",
+            "ASSIGNED": "\"{{taskName}}\"已经分配给{{firstName}} {{lastName}}",
+            "RELATED-CONTENT-ADDED": "\"{{name}}\"已经添加至任务",
+            "RELATED-CONTENT-ADDED-LOADING": "\"{{name}}\"已经添加至任务。从外部源检索到内容即可使用。"
+        },
+        "ACTION": {
+            "COMPLETE-TASK-WITH-FORM": "完成表单",
+            "COMPLETE": "完成",
+            "CLAIM": "声明",
+            "ASSIGN": "分配",
+            "REASSIGN": "再分配",
+            "CREATE": "+ 创建任务",
+            "CREATE-CONFIRM": "创建",
+            "INVOLVE": "+ 参与人员",
+            "ADD-COMMENT": "+ 添加注释",
+            "ADD-COMMENT-CONFIRM": "添加注释",
+            "ADD-CONTENT": "+ 添加内容",
+            "CLEAR-DUEDATE": "清除到期日期",
+            "DUE-TODAY": "今日到期",
+            "CLEAR-DATE": "清楚日期",
+            "DATE-TODAY": "今天",
+            "AUDIT-LOG": "审计日志"
+        },
+        "TITLE": {
+            "ASSIGN": "选择任务承接人",
+            "ASSIGNEE": "任务承接人",
+            "CONTENT": "相关内容",
+            "CREATE-NEW": "新任务",
+            "FORM": "表单",
+            "DETAILS": "详细信息",
+            "ADD-RELATED-CONTENT": "添加相关内容",
+            "SELECT-DUEDATE": "选择到期日期",
+            "SELECT-DATE": "选择日期",
+            "NO-CONTENT-ITEMS": "无内容项",
+            "NO-PEOPLE-INVOLVED": "无参与人员",
+            "NO-COMMENTS": "无注释",
+            "COMMENT-COUNT": "注释",
+            "COMMENTS-COUNT": "注释",
+            "SHOW-DETAILS": "显示详细信息",
+            "SHOW-FORM": "显示表单"
+        },
+        "FIELD": {
+            "NAME": "名称",
+            "DESCRIPTION": "描述",
+            "ASSIGNEE": "任务承接人",
+            "DUE": "到期日期",
+            "PROCESS-INSTANCE": "部分流程",
+            "ENDED": "已结束",
+            "DURATION": "持续期"
+        },
+        "MESSAGE": {
+            "NO-NAME": "未命名任务",
+            "NO-ASSIGNEE": "未分配给任何人",
+            "NO-DUEDATE": "无到期日期",
+            "DUE-ON": "到期",
+            "CREATED-ON": "已创建",
+            "ENDED-ON": "已结束",
+            "COMPLETED-BY": "{{firstName}} {{lastName}}已完成, ",
+            "NO-DESCRIPTION": "此任务无描述",
+            "NO-RELATED-CONTENT": "此任务无相关内容...",
+            "NO-PEOPLE-INVOLVED": "此任务无成员参与...",
+            "NO-COMMENTS": "此任务还没有注释...",
+            "INVOLVE-PEOPLE-PLACEHOLDER": "+ 添加用户",
+            "CONTENT-UPLOADED-BY": "添加自",
+            "ASSIGNEE": "分配至{{firstName}} {{lastName}}",
+            "NEW-COMMENT-PLACEHOLDER": "输入要添加到此任务的注释",
+            "COMMENT-HEADER": "添加自{{createdBy | username}}, {{created | dateformat:\"fromNow\"}}",
+            "NO-FILTER": "显示您未过滤的任务",
+            "FILTERED": "显示您已过滤的任务",
+            "NO-TASKS": "未找到匹配任务...",
+            "DURATION": "设置{{duration}}",
+            "CLAIM-TASK-FIRST": "您需要先声明任务，然后查看并填写任务表单。您可以按下页面右上方的蓝色按钮来声明任务。",
+            "NO-TASKS-HELP": "您目前没有任务！您可以:",
+            "NO-SUCH-TASK-HELP": "未找到你搜索的任务！您可以：",
+            "NO-SUCH-TASK-RETURN-TO-LIST": "返回您的任务列表",
+            "NO-TASKS-CREATE-TASK": "创建一个任务独自完成或者将任务分配给其他人",
+            "NO-TASKS-CREATE-PROCESS": "开始并追踪一个新流程"
+
+        },
+        "HELP" : {
+            "DESCRIPTION": "此任务无详细信息。您可以选择操作修改信息：",
+            "COMPLETED-DESCRIPTION": "已完成任务无详细信息",
+            "DESCRIPTION-WITH-CLAIM": "此任务无详细信息。您可以选择一下操作进行修改。此外，要完成这项任务，首先需要按下页面右上方的蓝色按钮",
+            "ADD-PEOPLE": "允许其他人加入任务并开始合作",
+            "ADD-COMMENT": "添加注释提示其他人",
+            "ADD-CONTENT": "添加文档并共享知识"
+        }
+    },
+    "PROCESS": {
+        "ALERT": {
+            "COMMENT-ADDED": "注释已添加",
+            "STARTED": "新流程\"{{processDefinitionName}}\" 已开始",
+            "START-PROCESS-CONTENT-ADD-FAILED": "行流程添加文件{{noOfFiles}}失败"
+        },
+        "TITLE": {
+            "DIAGRAM": "流程图"
+        },
+        "FILTER": {
+            "CREATED-DESC": "最新创建",
+            "CREATED-ASC": "最早创建",
+            "ENDED-DESC": "最新完成",
+            "ENDED-ASC": "最早完成",
+            "STATE-SUMMARY": "显示{{state.title | translate}}流程",
+            "STATE": "流程状态",
+            "STATE-RUNNING": "运行中",
+            "STATE-COMPLETED": "已完成",
+            "STATE-ALL": "全部"
+        },
+        "MESSAGE": {
+            "NO-DESCRIPTION": "此流程实例无描述",
+            "NO-FILTER": "显示所有流程实例",
+            "NO-INSTANCES": "未找到匹配的流程实例...",
+            "NO-INSTANCES-HELP": "无运行中的流程。如果您已完成流程，您可以通过流程列表的过滤器查找它们。您可以开始：",
+            "NO-INSTANCES-HELP-START": "开始一个新流程并追踪此流程",
+            "NO-TASKS": "当前无活跃任务...",
+            "NO-COMPLETED-TASKS": "尚无已完成成任务...",
+            "NO-BUSINESS-KEY": "无业务key集",
+            "CATEGORY": "目录: {{processDefinitionCategory}}",
+            "NEW-COMMENT-PLACEHOLDER": "输入注释添加到此进程",
+            "COMMENT-HEADER": "Added by {{createdBy | username}}, {{created | dateformat:\"fromNow\"}}",
+            "SELECT-DEFINITION": "从下方的列表内选择要启动的进程",
+            "NO-PROCESS-DEFINITIONS": "没有可用的流程定义，您无法启动流程",
+            "START-PROCESS": "开始流程",
+            "STARTED-BY": "由{{firstName}} {{lastName}}开始",
+            "NO-PROCESS-DEFINITION-SELECTED-HELP": "请选择一个流程定义"
+        },
+        "ACTION" : {
+            "CREATE": "+ 开始流程",
+            "BACK-TO-LIST": "退回至任务实例",
+            "SHOW-DIAGRAM": "显示图",
+            "CANCEL": "取消流程",
+            "DELETE": "删除流程",
+            "ADD-COMMENT": "+ 添加注释",
+            "ADD-COMMENT-CONFIRM": "添加注释",
+            "AUDIT-LOG": "审计日志"
+        },
+        "FIELD": {
+            "BUSINESS-KEY": "业务key",
+            "CATEGORY": "目录",
+            "PROCESS-DEFINITION": "流程定义",
+            "STARTED": "已开始",
+            "STARTED-BY": "开始自",
+            "ENDED": "已完成",
+            "NAME": "业务实例名称",
+            "NAME-PLACEHOLDER" : "输入正在启动的流程的可选名称"
+        },
+        "SECTION": {
+            "ACTIVE-TASKS": "活动任务",
+            "START-FORM": "开始表单",
+            "COMPLETED-TASKS": "任务已完成",
+            "COMMENTS": "注释",
+            "CONTENT" : "内容"
+        },
+        "POPUP": {
+            "CANCEL-TITLE": "取消这个流程?",
+            "CANCEL-DESCRIPTION": "您确定要取消流程：{{name}}?",
+            "DELETE-TITLE": "删除这个流程?",
+            "DELETE-DESCRIPTION": "您确定要删除流程：{{name}}? 所有与此流程相关的任务、内容和注释将被永久删除。"
+        }
+    },
+    "INVOLVE-PEOPLE": {
+        "NO-MATCHING-RESULTS": "使用上面的搜索框查找用户或 ",
+        "SEARCH-PLACEHOLDER": "搜索用户",
+        "USE-EMAIL": "选择使用中的邮箱地址",
+        "EMAIL-PLACEHOLDER": "输入邮箱地址",
+        "EMAIL-HELP": "按Enter或者点击继续按钮。将通过电子邮件通知或邀请注册用户。",
+        "BACK-TO-SEARCH": "返回搜索",
+        "ACTION-SELECT": "选择"
+    },
+    "INTEGRATION": {
+        "ALERT": {
+        }
+    },
+    "CONTENT": {
+        "SIMPLE-TYPE": {
+            "WORD": "文件",
+            "EXCEL": "电子数据表格",
+            "PDF": "PDF文件",
+            "IMAGE": "图片",
+            "FOLDER": "文件夹",
+            "CONTENT": "内容"
+        },
+        "MESSAGE": {
+            "NO-PREVIEW-AVAILABLE": "没有可用的预览",
+            "PREVIEW-PENDING": "创建预览...",
+            "CONTENT-PENDING": "获取内容...",
+            "NOT-FOUND": "未找到内容",
+            "DELETE-CONFIRMATION": "您确定要删除{{name}}?",
+            "DROP": "拖动至此或 ",
+            "SELECT": "选择文件",
+            "DRAGOVER": "下拉文件上传",
+            "EXTERNAL-ONLY": "选择内容源"
+        },
+        "TITLE": {
+            "DELETE": "删除内容",
+            "NOT-FOUND": "文件未找到"
+        },
+        "ACTION":  {
+        }
+    },
+    "FORM" : {
+        "ACTION": {
+            "SAVE": "保存"
+        },
+        "DEFAULT-OUTCOME": {
+            "COMPLETE": "完成",
+            "START-PROCESS": "开始流程"
+        },
+        "MESSAGE" : {
+            "SELECT-PERSON": "无可选用户...",
+            "SELECT-GROUP": "无可选组...",
+            "EMPTY": "(空)"
+        }
+    },
+    "APP-DEFINITION" : {
+        "MESSAGE" : {
+            "NOT-FOUND": "指定id未找到应用程序定义",
+            "MISSING": "Activiti正在运行集成模式，但缺少所需的应用程序定义。"
+        }
+    }
+}

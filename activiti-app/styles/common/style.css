@@ -2698,7 +2698,9 @@ h3+div > .dropzone {
 }
 
 .landing-logo .span1 .span3 {
-    color: #1b7ec3;
+    color: #edf3ed;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .landing-logo .span1 .span2 {

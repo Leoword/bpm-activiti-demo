@@ -80,7 +80,7 @@
         "IDENTITY-MANAGEMENT": {
             "TITLE": "身份管理",
             "TITLE-TENANT-ADMIN": "身份管理",
-            "DESCRIPTION": "管理您的个人资料：修改您的头像、姓名以及其他设置。作为管理员用户，管理用户和组。",
+            "DESCRIPTION": "管理您的个人资料：修改您的头像、姓名以及其他设置。作为管理员用户，您还可以管理用户和组。",
             "DESCRIPTION-TENANT-ADMIN": "管理组织内的用户和组"
         },
         "CUSTOM-APP" : {

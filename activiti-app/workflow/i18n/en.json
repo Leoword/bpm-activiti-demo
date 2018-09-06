@@ -164,7 +164,7 @@
         "MESSAGE": {
             "NO-NAME": "未命名任务",
             "NO-ASSIGNEE": "未分配给任何人",
-            "NO-DUEDATE": "无到期日期",
+            "NO-DUEDATE": "暂无",
             "DUE-ON": "到期",
             "CREATED-ON": "已创建",
             "ENDED-ON": "已结束",
@@ -203,7 +203,7 @@
         "ALERT": {
             "COMMENT-ADDED": "注释已添加",
             "STARTED": "新流程\"{{processDefinitionName}}\" 已开始",
-            "START-PROCESS-CONTENT-ADD-FAILED": "行流程添加文件{{noOfFiles}}失败"
+            "START-PROCESS-CONTENT-ADD-FAILED": "流程添加文件{{noOfFiles}}失败"
         },
         "TITLE": {
             "DIAGRAM": "流程图"
@@ -230,7 +230,7 @@
             "NO-BUSINESS-KEY": "无业务key集",
             "CATEGORY": "目录: {{processDefinitionCategory}}",
             "NEW-COMMENT-PLACEHOLDER": "输入注释添加到此进程",
-            "COMMENT-HEADER": "Added by {{createdBy | username}}, {{created | dateformat:\"fromNow\"}}",
+            "COMMENT-HEADER": "创建自{{createdBy | username}}, {{created | dateformat:\"fromNow\"}}",
             "SELECT-DEFINITION": "从下方的列表内选择要启动的进程",
             "NO-PROCESS-DEFINITIONS": "没有可用的流程定义，您无法启动流程",
             "START-PROCESS": "开始流程",
@@ -249,10 +249,10 @@
         },
         "FIELD": {
             "BUSINESS-KEY": "业务key",
-            "CATEGORY": "目录",
+            "CATEGORY": "类别",
             "PROCESS-DEFINITION": "流程定义",
-            "STARTED": "已开始",
-            "STARTED-BY": "开始自",
+            "STARTED": "已启动",
+            "STARTED-BY": "启动自",
             "ENDED": "已完成",
             "NAME": "业务实例名称",
             "NAME-PLACEHOLDER" : "输入正在启动的流程的可选名称"

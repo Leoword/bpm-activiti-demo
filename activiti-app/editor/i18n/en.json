@@ -657,7 +657,7 @@
         "IDENTITY-MANAGEMENT": {
           "TITLE": "Profile",
           "TITLE-TENANT-ADMIN": "个人管理",
-          "TITLE-TENANT-ADMIN-TENANT-MGMT": "占有人",
+          "TITLE-TENANT-ADMIN-TENANT-MGMT": "租借人",
           "TITLE-TENANT-ADMIN-USER-MGMT": "用户",
           "TITLE-TENANT-ADMIN-SYSTEM-GROUP-MGMT": "功能",
           "TITLE-TENANT-ADMIN-FUNCTIONAL-GROUP-MGMT": "组织",
@@ -833,10 +833,10 @@
             "PROPERTY-UNSELECTED" : "无可选属性",
             "DISPLAY-TEXT": "显示文本",
             "AMOUNT-CURRENCY-PROPERTY": "货币",
-            "AMOUNT-ENABLE-FRACTIONS": "Enable fractions"
+            "AMOUNT-ENABLE-FRACTIONS": "可分"
         },
         "OPTIONS": {
-            "MANUAL": "Manual",
+            "MANUAL": "指南",
             "REST": "Rest服务"
         },
         "OUTCOMES": {

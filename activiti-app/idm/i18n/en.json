@@ -78,7 +78,7 @@
              "CREATE-PASSWORD": "密码",
              "CREATE-FIRSTNAME": "名",
              "CREATE-LASTNAME": "姓",
-             "CREATE-TENANT": "Tenant",
+             "CREATE-TENANT": "租借人",
              "CREATE-COMPANY": "公司",
              "CREATE-STATUS": "状态",
              "CREATE-TYPE": "类型",
@@ -134,7 +134,7 @@
             }
         },
       "PROFILE-MGMT": {
-         "CREATED": "Registered since",
+         "CREATED": "注册自",
          "CHANGE-PASSWORD": "修改密码",
          "DETAILS": "详细信息",
          "DETAILS-DESCRIPTION": "单击以下任意字段进行修改操作",

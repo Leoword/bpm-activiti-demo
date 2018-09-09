@@ -92,7 +92,7 @@
             "DUE-ASC": "最早到期",
             "TEXT": "过滤",
             "TEXT-PLACEHOLDER": "根据任务名搜索",
-            "TEXT-SUMMARY": "Filtered by: {{text}}",
+            "TEXT-SUMMARY": "过滤 : {{text}}",
             "PROCESS-DEFINITION": "流程定义",
             "PROCESS-DEFINITION-PLACEHOLDER": "选择流程定义 ...",
             "STATE": "状态",

@@ -436,7 +436,7 @@
         "DESCRIPTION": "描述",
         "REUSABLE": "可使用的决策表",
         "VERSION-COMMENT": "版本注释",
-        "HIT-POLICY": "Hit Policy:",
+        "HIT-POLICY": "命中策略:",
         "ACTION": {
             "DETAILS": "显示详细信息",
             "EDIT": "修改模型属性",
